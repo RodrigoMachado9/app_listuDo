@@ -48,9 +48,6 @@ const Home = ({ navigation }) => {
             </Modal>
 
             <View>
-                {/* <Button title="Novo ToDo"
-                    onPress={() => navigation.navigate('ToDoForm')} /> */}
-
                 <Button title="Novo ToDo"
                     onPress={() => setModalOpen(true)} />
             </View>
